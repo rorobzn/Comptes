@@ -1,0 +1,12 @@
+Comptes - application locale (PWA)
+
+1. Crée un dépôt PUBLIC sur GitHub (ex. "comptes") et envoie-y TOUS les fichiers de ce dossier
+   (index.html, manifest.webmanifest, sw.js, icon-*.png, dossier vendor/).
+2. Dépôt > Settings > Pages > Source : "Deploy from a branch" > main / (root) > Save.
+3. Sur l'iPhone, ouvre dans SAFARI : https://<ton-compte>.github.io/comptes/
+4. Bouton Partager > "Sur l'écran d'accueil" > Ajouter.
+5. Ouvre l'app depuis l'icône : elle marche ensuite sans connexion.
+6. Importe donnees-initiales.json (Mois > Sauvegarde > Restaurer) pour retrouver tes soldes et tes opérations récurrentes.
+
+Le code ne contient aucune donnée personnelle : tes chiffres restent dans le stockage de l'iPhone.
+Pour mettre à jour l'app, remplace index.html dans le dépôt (et change le nom du cache dans sw.js).
